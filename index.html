@@ -16,18 +16,19 @@
         <div>
             <h2>Create a User</h2>
             <form>
-                <span>First name: <input type="text" name="fname"></span>
-                <span>Last name: <input type="text" name="lname"></span>
-                <span>Department:<select name="Department">
+                <div  class = "formFill"><span>First name: </span><span class = "large"><input type="text" name="fname"></span></div>
+                <div class="formFill"><span>Last name:</span><span class = "large"> <input type="text" name="lname"></span></div>
+                <div class="formFill"> <span>Department:</span><span class ="large"><select name="Department">
                     <option value="depart1">Depart1</option>
                     <option value="depart2">Depart2</option>
-                </select></span>
-                <input type="button" value="Clear">
-                <input type="submit" value="Save">
+                </select></span></div>
+                <div class = "button"><input type="button" value="Clear">
+                <input class = "blue" type="submit" value="Save"></div>
+                
             </form>
         </div>
         </section>
-        <section>
+        <section class="div_holder">
             <div>
                 <h4>User A</h4>
                 <p>Some text for the user</p>
